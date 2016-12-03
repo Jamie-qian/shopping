@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en" ng-app="myApp">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<div ng-controller="demo">
+		<span ng-bind="price"></span>
+		<input type="button" value="-" ng-click="remove()">
+		<input type="text" ng-model="counter">
+		<input type="button" value="+" ng-click="add()">
+	</div>
+	<script src="js/angular.min.js"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>
